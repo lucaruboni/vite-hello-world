@@ -1,14 +1,17 @@
 <script>
   export default{
     data(){
-      return
+      return{
+        message: "Hello World!"
+      }
+      
     }
   }
 </script>
 
 <template>
 
-  <h1>Hello Vite</h1>
+  <h1>{{message}}</h1>
 
 </template>
 
